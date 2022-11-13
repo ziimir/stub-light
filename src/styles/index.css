@@ -1,0 +1,31 @@
+@import './module.css';
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.block {
+    &_mod {
+        margin: 0;
+    }
+
+    &__elem {
+        margin: 0;
+    }
+
+    &__elem_mod {
+        margin: 0;
+
+        @media (--medium) {
+            background: url('../images/bg.png');
+        }
+    }
+}
+
+@media (--large) {
+    .block {
+        background: red;
+    }
+}

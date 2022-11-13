@@ -1,0 +1,9 @@
+{
+  "custom-media": {
+    "--small": "screen",
+    "--medium": "screen and (min-width: 48em)",
+    "--large": "screen and (min-width: 64.0625em)",
+    "--xlarge": "screen and (min-width: 90.0625em)",
+    "--xxlarge": "screen and (min-width: 120.0625em)"
+  }
+}
