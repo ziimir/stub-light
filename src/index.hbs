@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <script src="/index.js"></script>
+    {{#each @root.assets}}
+    <script src="{{this}}"></script>
+    {{/each}}
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    hello
+    hello!
 </body>
 </html>
