@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     {{#each @root.assets}}
     <script src="{{this}}"></script>
@@ -9,6 +10,11 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    hello!
+    <div>hello! <a href="#">username</a></div>
+    <div class="block"></div>
+    <div class="block block_mod">
+        <div class="block__elem"></div>
+        <div class="block__elem block__elem_mod"></div>
+    </div>
 </body>
 </html>
