@@ -8,14 +8,14 @@ const bundleOutput = require('./tools/rollup/rollup-plugin-bundle-output');
 module.exports = {
     input: 'src/index.ts',
     plugins: [
-        nodeResolve({extensions: ['.ts', '.js']}),
+        nodeResolve({ extensions: ['.ts', '.js'] }),
         commonjs(),
         typescript(),
         iife({
             sourcemap: true,
-            strict: true
+            strict: true,
         }),
-        bundleOutput({filename: 'paths-map.json'})
+        bundleOutput({ filename: 'paths-map.json' }),
     ],
     output: {
         dir: 'out/',
@@ -25,6 +25,6 @@ module.exports = {
             if (id.includes('node_modules')) {
                 return 'vendor';
             }
-        }
-    }
+        },
+    },
 };

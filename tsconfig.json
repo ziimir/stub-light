@@ -7,11 +7,6 @@
     "sourceMap": true,
     "target": "es6"
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "out",
-    "node_modules"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["out", "node_modules"]
 }

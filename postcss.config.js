@@ -4,14 +4,14 @@ module.exports = {
         require('postcss-url')({
             url: 'copy',
             basePath: '.',
-            assetsPath: 'out/'
+            assetsPath: 'out/',
         }),
         require('postcss-custom-media')({
-            importFrom: './src/mq.json'
+            importFrom: './src/mq.json',
         }),
         require('postcss-custom-properties')(),
         require('postcss-calc')(),
         require('postcss-nested')(),
-        require('autoprefixer')()
-    ]
-}
+        require('autoprefixer')(),
+    ],
+};

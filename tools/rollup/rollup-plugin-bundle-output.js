@@ -13,10 +13,7 @@ module.exports = function bundleOutput(options) {
             const outDir = options.dir;
             const files = Object.keys(bundle).reverse();
 
-            fs.writeFileSync(
-                paths.join(outDir, filename),
-                jsonTmpl(jsonPropTmpl('assets', files))
-            );
-        }
+            fs.writeFileSync(paths.join(outDir, filename), jsonTmpl(jsonPropTmpl('assets', files)));
+        },
     };
-}
+};

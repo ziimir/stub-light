@@ -1,6 +1,6 @@
-import {Utils} from './js/utils';
+import { Utils } from './js/utils';
 
-const {UTIL_CONST, fn} = Utils;
+const { UTIL_CONST, fn } = Utils;
 
 window.addEventListener('DOMContentLoaded', (event) => {
     alert(UTIL_CONST);
