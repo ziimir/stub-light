@@ -12,6 +12,7 @@
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^9.0.2",
+    "@ziimir/prettier-config": "^0.0.1",
     "autoprefixer": "^10.4.13",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.5.0",
