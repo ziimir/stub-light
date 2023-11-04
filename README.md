@@ -1,4 +1,4 @@
-# Vanilla Stub
+# Light Stub
 
 ### Purpose
 
