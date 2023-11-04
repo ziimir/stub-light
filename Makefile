@@ -1,5 +1,5 @@
 src_dir := src
-dist_dir := out
+dist_dir := build
 js_assets_map_filename := paths-map.json
 js_assets_map_path := $(dist_dir)/$(js_assets_map_filename)
 

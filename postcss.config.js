@@ -4,7 +4,7 @@ module.exports = {
         require('postcss-url')({
             url: 'copy',
             basePath: '.',
-            assetsPath: 'out/',
+            assetsPath: 'build/',
         }),
         require('postcss-custom-media')({
             importFrom: './src/mq.json',

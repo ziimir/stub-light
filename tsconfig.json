@@ -8,5 +8,5 @@
     "target": "es6"
   },
   "include": ["src/**/*"],
-  "exclude": ["out", "node_modules"]
+  "exclude": ["build", "node_modules"]
 }

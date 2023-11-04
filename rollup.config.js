@@ -18,7 +18,7 @@ module.exports = {
         bundleOutput({ filename: 'paths-map.json' }),
     ],
     output: {
-        dir: 'out/',
+        dir: 'build/',
         format: 'es',
         sourcemap: 'inline',
         manualChunks: (id) => {
